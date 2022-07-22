@@ -16,26 +16,76 @@
 
   <body>
     <header>
-      <h1>DOM Play</h1>
-      <nav class="topnav" id="myTopnav">
-        <a href="index.html" class="active">Home</a>
-        <a href="#" target="_blank">Name of project goes here</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
-          >&#9776;</a
-        >
-      </nav>
+      <h1 class="title">Joker</h1>
+      <h2 class="author">by Todd Phillips & Scott Silver. 13 April 2018</h2>
     </header>
 
     <main class="wrapper">
+      <div>
+        <p id="description">
+          This story takes place in its own universe. It has no connection to
+          any of the DC films that have come before it. We see it as a classic
+          Warner Bros. movie. Gritty, intimate and oddly funny, the characters
+          live in the real world and the stakes are personal. Although it is
+          never mentioned in the film, this story takes place in the past. Let's
+          call it 1981.
+        </p>
+      </div>
+      <div class="image"><img src="joker.jpeg" /></div>
       <div id="play">
         <p>
-          <span data-actor="hamlet">Hamplet: To be or not to be?</span>
+          <span data-actor="garrity"
+            ><em>Det. Garrity</em> : Mr. Fleck, sorry to bother you, I'm
+            Detective Garrity, this is my partner Detective Burke. We had a few
+            questions for you, but you weren't home. So we spoke to your
+            mother.</span
+          >
         </p>
         <p>
-          <span data-actor="skull">Skull:Are you talking to me?</span>
+          <span data-actor="joker"> <em>Joker </em>: You did this to her?</span>
         </p>
         <p>
-          <span data-actor="hamlet">Hamplet</span>
+          <span data-actor="garrity"
+            ><em>Det. Garrity</em> What? No. We just asked her some questions
+            and she started getting hysterical-- hyperventilating, trouble
+            speaking-- then she collapsed. Hit her head pretty hard.</span
+          >
+        </p>
+        <p>
+          <span data-actor="joker"
+            ><em>Joker </em>:They told me she had a stroke.</span
+          >
+        </p>
+        <p>
+          <span data-actor="garrity"
+            ><em> Det. Garrity </em> Sorry to hear that.</span
+          >
+        </p>
+        <p><span>JOKER BURSTS OUT LAUGHING, he can't stop it.</span></p>
+        <p>
+          <span data-actor="garrity"
+            ><em>Det. Garrity</em> I'm lost. Is something funny?</span
+          >
+        </p>
+        <p>
+          <span data-actor="joker"><em>Joker </em> No I,-- I have a, a--</span>
+        </p>
+      </div>
+      <div>
+        <p>
+          The page is a script for the movie Joker. For the project was used
+          HTML/ CSS for style / and JavaScript for event design. The unique
+          feature of the page is that it highlits based on the actor's name. In
+          order to do that, there where used couple stepts.
+             <ul>
+              <li>All the lines of the actors where defined into an array using the DOM</li>
+              <li>In order to highlight the lines, a for loop was used through the array with
+                an addEventListener.
+              </li>
+             <li> Finally to make sure only one actor at the time if highlites was used another for loop with 
+              if condition, between which actor is highlighted and the line.
+             </li>
+            </ul>
         </p>
       </div>
       <footer>
