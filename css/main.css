@@ -4,10 +4,10 @@
 
 html {
   background-color: #091f36;
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.95em;
-  line-height: 1.5em;
-  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  line-height: 2em;
+  color: #091f36;
 }
 
 ::selection {
@@ -26,6 +26,7 @@ h1 {
   font-weight: bolder;
   text-transform: uppercase;
   color: black;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h2 {
@@ -33,7 +34,7 @@ h2 {
 }
 
 main.wrapper {
-  background-color: white;
+  background-color: #fcfaf6;
   overflow: auto;
 }
 
@@ -41,15 +42,18 @@ main.wrapper {
   font-size: large;
   color: #4f5f76;
 }
-.image {
-  align-items: flex;
-  align-content: center;
-  width: 300px;
-  height: 300px;
+em {
+  font-weight: bolder;
 }
-
 p {
   margin: 1em; /* Top Right Bottom Left (TRBL) */
+}
+.comments {
+  align-items: center;
+  font-size: large;
+  color: #4f5f76;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 a {
   color: darkcyan;

@@ -29,10 +29,14 @@ function highlightActor(actor) {
   for (const mySpan of spans) {
     if (actor == mySpan.dataset.actor) {
       //current actor, highlihjt
-      mySpan.style.backgroundColor = 'black';
+      mySpan.style.backgroundColor = 'grey';
+      mySpan.style.fontFamily = 'courier new';
+      mySpan.style.fontSize = 'x-large';
     } else {
       //not current actor, remove highlight
       mySpan.style.backgroundColor = '';
+      mySpan.style.fontFamily = '';
+      mySpan.style.fontSize = '';
     }
   }
   //alert(mySpan.dataset.actor);
