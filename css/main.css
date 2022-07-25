@@ -55,6 +55,24 @@ p {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
+.joker {
+  float: right;
+  width: 40%;
+}
+.joker img {
+  /* max for the img*/
+  width: 100%;
+  /* box size*/
+  max-width: 500px;
+}
+.joker-text {
+  float: left;
+  width: 60%;
+}
+.clear-both {
+  clear: both;
+}
+
 a {
   color: darkcyan;
   text-decoration: none;
